@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+    width: 100%;
+    background-color: rgba(234, 234, 239, 0.594);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+ }
+
+ .Conteiner {
+    width: 350px;
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+ }
+
+ .Card1 {
+    width: 350px;
+    height: 284px;
+    border-radius: 0px 0px 16px 16px;
+    border: 0px solid #19182B;
+    background: var(--Gradient-1, linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%));
+    position: relative;
+    /* position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    /* flex-direction: row; */
+ }
+
+ .img1 {
+    display: none;
+ }
+
+ .img2 {
+    width: 350px;
+    height: 240px;
+    position: relative;
+    border-radius: 0px 0px 16px 16px;
+    border: 0px solid #19182B;
+    margin-left: 1px;
+ }
+
+.Card2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+ .header {
+    width: 327px;
+    color: #242742;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+ }
+
+ .Txt1 {
+    width: 327px;
+    color: #242742;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+ }
+
+ .Box1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .BoxA {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+ }
+
+ .Txt2 {
+    width: 290px;
+    color:  #242742;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-left: 11px;
+ }
+
+ .Box2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+ .Txt3 {
+    width: 76px;
+    height: 18px;    
+    color: #242742;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    margin-bottom: 8px;
+}
+
+ .Box3 {
+    width: 327px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 8px;
+    border: 1px solid rgba(25, 24, 43, 0.25);
+    padding-left: 20px;
+ }
+
+ .Txt4 {
+    width: 154px;
+    height: 24px;
+    border: none;
+    color: rgba(25, 24, 43, 0.25);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.Button {
+    width: 327px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: rgba(36, 39, 66, 1);
+    color: rgba(255, 255, 255, 1); 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+}
+
+.Button:hover {
+    background: var(--Gradient-1, linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%));
+    box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.50);
+    border: none;
+}
+
+.Txt5 {
+    color: rgba(255, 255, 255, 0.927);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    text-decoration: none;
+}
+
+@media (max-width: 1940px) and (min-width:750px) {
+    body {
+        width: 100%;
+        background-color: rgba(234, 234, 239, 0.594);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Roboto;
+    }
+
+    .Conteiner {
+        width: 928px;
+        height: 641px;
+        border-radius: 36px;
+        background: #FFF;
+        box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 24px;
+    }
+
+    .Card1 {
+        width: 400px;
+        height: 593px;
+        border-radius: 16px;
+        order: 2;
+    }
+
+    .img1 {
+        display: block;
+        width: 400px;
+        height: 593px;
+        border-radius: 16px;
+     }
+    
+     .img2 {
+        display: none;
+     }
+
+    .Card2 {
+        padding-left: 40px;
+        gap: 30px;
+    }
+
+    .header {
+        width: max-content;
+        font-size: 56px;
+    }
+
+    .Txt1 {
+        width: 376px;
+    }
+
+    .Txt2 {
+        width: 339px;
+    }
+
+    .Txt3 {
+        width: 80px;
+        margin-bottom: 5px;
+    }
+
+    .Box3 {
+        width: 376px;
+        height: 56px;
+    }
+
+    .Txt4 {
+        width: 183px;
+        outline: none;
+    }
+
+    .Button {
+        width: 376px;
+        height: 56px;
+    }
+
+    .Button:hover {
+        background: var(--Gradient-1, linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%));
+        box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.50);
+        color: rgba(255, 255, 255, 1);
+        border: none;
+    }
+}
